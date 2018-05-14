@@ -1,11 +1,11 @@
-const mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
 var User = mongoose.model('User', {
   email: {
+    type: String,
     required: true,
     trim: true,
-    type: String,
-    minLength: 1
+    minlength: 1
   }
 });
 
