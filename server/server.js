@@ -34,5 +34,3 @@ app.listen(3000, () => {
 });
 
 module.exports = {app};
-
-///// Current up to video 74 /////////
